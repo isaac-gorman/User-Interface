@@ -63,4 +63,165 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+p {
+ font-size: 18px;
+}
 /* Your code starts here! */
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+
+}
+
+/* ---------  Top Navigatio and Logo --------- */
+.top-nav ul {
+	width: 1100px;
+	margin: auto;
+	display:flex;
+	justify-content: space-between;
+
+	margin-top: 40px ; 
+	margin-bottom: 40px;
+}
+
+.top-nav li {
+	display: flex;
+	align-items: center;
+	flex: 2;
+}
+
+.logo {
+	flex:1;
+}
+
+.top-nav a {
+	color:grey;
+	text-decoration: none;
+}
+/* ---------  Top Navigatio and Logo --------- */
+
+
+/* ---------  Call To Action and Image Section --------- */
+
+body {
+
+}
+
+.top-content {
+	width: 1100px;
+	margin: auto;
+
+	display:flex;
+	justify-content: space-evenly;
+
+	margin-top: 60px ; 
+	margin-bottom: 60px;
+}
+
+.cta {
+	text-align: center;
+	font-size: 80px;
+
+
+}
+
+.cta button {
+	border: 2px solid black;
+	width: 200px ;
+	height: 40px;
+
+	font-size: 18px;
+	text-transform: uppercase;
+}
+/* ---------  Call To Action and Image Section --------- */
+
+.divider {
+	width: 1100px;
+	margin: 0 auto;
+	
+	border: 1px solid black;
+
+	margin-top: 40px ; 
+	margin-bottom: 40px;
+}
+
+/* ---------  Middle Content Section and Image --------- */
+.mid-content-a {
+	width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;	
+}
+
+.mid-content-a div {
+	margin-right: 40px;
+}
+
+.middle-img {
+	width: 1100px;
+	margin: 0 auto;
+
+	margin-top: 60px ; 
+	margin-bottom: 60px;
+}
+
+.mid-content-b {
+	width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;	
+}
+
+.mid-content-b div {
+	margin-right: 40px;
+}
+/* ---------  Middle Content Section and Image --------- */
+
+
+
+
+/* ---------  Contact Section--------- */
+
+.contact {
+	width: 1100px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	text-align: center;
+
+ 
+	margin-bottom: 60px;
+}
+/* ---------  Contact Section--------- */
+
+
+/* ---------  Footer Section--------- */
+
+footer {
+	width: 1100px;
+	height: 110px;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+
+	background-color: lightgray;
+
+	font-style: italic;
+}
+
+/* ---------  Footer Section--------- */
+
